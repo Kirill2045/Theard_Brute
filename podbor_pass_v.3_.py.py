@@ -3,7 +3,7 @@ import time
 import requests
 import threading
 
-with open('SkillBox\\probable-v2-top12000.txt') as f:
+with open('probable-v2-top12000.txt') as f:
     content = f.read()
     password_list = content.split('\n')
 Dlina = len(password_list)
